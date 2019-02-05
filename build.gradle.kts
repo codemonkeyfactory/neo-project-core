@@ -43,4 +43,10 @@ tasks {
 allprojects {
     group = "com.codemonkeyfactory"
     version = "1.0-SNAPSHOT"
+    
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        jcenter()
+    }
 }
