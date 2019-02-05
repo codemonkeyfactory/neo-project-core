@@ -1,0 +1,58 @@
+= Neo Project Core Email
+:source-highlighter: highlightjs
+:toc:
+
+:hardbreaks:
+
+[.details]
+--
+*Authors*
+
+* Wai Keung Yiu <wk.yiu@hgc.com.hk>
+
+*Version*: 0.1
+*Date*: 2017-07-28
+--
+
+:!hardbreaks:
+
+Email core project for the Neo Project group.
+
+This project aims to provide a one-stop shop for all email related requirements of the Neo Project group. +
+The email function will be exposed as a REST microservice to other Neo Project components.
+
+== Getting Started
+
+=== Installing
+
+=== Build
+
+To build the project, run the following command from the project directory.
+
+For windows,
+[source,dos]
+----
+..\gradlew.bat build
+----
+
+For MacOS or Linux,
+[source,shell]
+----
+../gradlew build
+----
+
+== Running the tests
+
+To run the tests, run the following command from the project directory.
+
+For windows,
+[source,dos]
+----
+..\gradlew.bat check
+----
+
+For MacOS or Linux,
+[source,shell]
+----
+../gradlew build
+----

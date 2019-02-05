@@ -1,0 +1,55 @@
+= Neo Project Core
+:source-highlighter: highlightjs
+:toc:
+
+:hardbreaks:
+
+[.details]
+--
+*Authors*
+
+* Wai Keung Yiu <wk.yiu@hgc.com.hk>
+
+*Version*: 0.1
+*Date*: 2017-07-28
+--
+
+:!hardbreaks:
+
+Core re-usable projects for the Neo Project group.
+
+== Getting Started
+
+=== Installing
+
+=== Build
+
+To build the core projects, run the following command from the project root directory.
+
+For windows,
+[source,dos]
+----
+gradlew.bat build
+----
+
+For MacOS or Linux,
+[source,shell]
+----
+./gradlew build
+----
+
+== Running the tests
+
+To run the tests of all core projects, run the following command from the project root directory.
+
+For windows,
+[source,dos]
+----
+gradlew.bat check
+----
+
+For MacOS or Linux,
+[source,shell]
+----
+./gradlew build
+----

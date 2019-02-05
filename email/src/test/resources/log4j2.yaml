@@ -1,0 +1,30 @@
+configuration:
+  status: warn
+  properties:
+    property:
+    - name: logPath
+      value: 'log'
+    - name: logFileName
+      value: 'email-test'
+  appenders:
+    Console:
+      name: defaultConsole
+      target: SYSTEM_OUT
+      PatternLayout:
+        pattern: '[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %logger{36} - %msg%n'
+    RollingFile:
+      name: defaultFile
+      fileName: '${logPath}/${logFileName}.log'
+      filePattern: '${logPath}/${logFileName}-%d{yyyyMMdd}.%i.log.zip'
+      PatternLayout:
+        pattern: '[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %logger{36} - %msg%n'
+      Policies:
+        TimeBasedTriggeringPolicy:
+          interval: 1
+          modulate: true
+  loggers:
+    root:
+      level: info
+      AppenderRef:
+        - ref: defaultConsole
+        - ref: defaultFIle
