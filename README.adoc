@@ -8,10 +8,10 @@
 --
 *Authors*
 
-* Wai Keung Yiu <wk.yiu@hgc.com.hk>
+* Wai Keung Yiu <wai.keung.yiu@gmail.com>
 
 *Version*: 0.1
-*Date*: 2017-07-28
+*Date*: 2019-02-05
 --
 
 :!hardbreaks:
