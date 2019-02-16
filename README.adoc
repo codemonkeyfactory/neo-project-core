@@ -5,10 +5,6 @@
 :hardbreaks:
 
 [.details]
---
-*Authors*
-
-* Wai Keung Yiu <wai.keung.yiu@gmail.com>
 
 *Version*: 0.1
 *Date*: 2019-02-05
